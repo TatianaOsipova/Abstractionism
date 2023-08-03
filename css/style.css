@@ -1,35 +1,13 @@
 body {
   margin: 0;
-  font-family: 'Muli', sans-serif;
-  -webkit-box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
   box-sizing: border-box;
   overflow-x: hidden;
   background-color: black;
 }
 
-/* .background {
-  background-color: black;  
-  display: block;
-  width: 100%;
-  height: 1000px;
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 0;
-} */
-
-/* .background-texture {
-  width: 100%;
-  height: 1000px;
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 0;
-} */
-
 .carousel {
   width: 100%;
-  overflow-x: scroll;
   padding: 30px;
   padding-top: 180px;
   position: relative;
@@ -38,17 +16,15 @@ body {
 }
 
 .carousel__container {
-  white-space: nowrap;
-  margin: 70px 0px;
-  padding-bottom: 10px;
-  display: inline-block;
+  max-width: 1180px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 
 .categories__title {
   color: red;
-  font-size: 28px;
-  position: absolute;
-  padding-left: 30px;
+  font-size: 36px;
+  text-align: center;
 }
 
 .carousel-item {
@@ -65,7 +41,7 @@ body {
   transition: 1000ms all;
   -webkit-transform-origin: center left;
   transform-origin: center left;
-  position: relative;
+  /* position: relative; */
 }
 
 .carousel-item:hover~.carousel-item {

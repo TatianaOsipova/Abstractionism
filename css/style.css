@@ -3,24 +3,23 @@ body {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   box-sizing: border-box;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background: black;
 }
 
 h1 {
-  position: absolute;
-  top: 10%;
-  left: 42%;
   font-size: 40px;
   background: linear-gradient(to right, #fc0101, #39ff03, #3f01f9, #fce302, rgb(246, 2, 255));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  text-align: center;
 }
 
 
 .carousel {
   width: 100%;
   margin-top: 50px;
+  margin-bottom: 250px;
   padding: 110px 30px 0 30px;
   position: relative;
   -webkit-box-sizing: border-box;
@@ -138,6 +137,12 @@ h1 {
   margin: 5px 0;
 }
 
+/* section panting */
+
+.pantings{
+  padding-bottom: 150px;
+}
+
 .container {
   position: relative;
   display: flex;
@@ -156,10 +161,11 @@ h1 {
   width: 350px;
   max-width: 100%;
   height: 300px;
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 20px;
   transition: 0.5s;
   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+  color: #33fc01;
 }
 
 .container .card:hover {
@@ -209,13 +215,32 @@ h1 {
 }
 
 .container .card .content h2 {
-  font-size: 1.5rem;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
   font-weight: 700;
-  color: var(--clr);
+  padding-bottom: 20px;
+}
+
+.content__title-first{
+  color: yellow;
+
+}
+
+.content__title-second{
+  color: rgb(253, 0, 253);
+}
+
+.content__title-third{
+  color: rgb(255, 140, 0);
 }
 
 .container .card .content p {
   color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 20px;
+
 }
 
 .container .card .content a {

@@ -13,6 +13,12 @@ body {
   background: black;
 }
 
+.container {
+  max-width: 1240px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 40px;
   background:  red;
@@ -20,6 +26,8 @@ h1 {
   -webkit-background-clip: text;
   text-align: center;
 }
+
+/* header start */
 
 .header{
   margin-bottom: 150px;
@@ -35,7 +43,7 @@ nav {
   margin: 0px auto;
   perspective: 2000px;
   flex-wrap: wrap;
-  top: 3em;
+  top: 48px;
 }
 
 nav .menu-item {
@@ -46,31 +54,31 @@ nav .menu-item {
   display: flex;
   flex-basis: var(--item-width);
   box-sizing: border-box;
-  padding: 1em 1.5em;
+  padding: 16px 24px;
   justify-content: center;
   perspective: 200px;
   letter-spacing: 0.5px;
-  min-height: 7.5em;
+  min-height: 120px;
 }
 
 nav .menu-text, nav .menu-text a {
-  font-size: 1em;
-  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(190, 18, 220);
   text-decoration: none;
-  text-shadow: 0 1px 5px rgba(0,0,0,0.1);
   transition: color 0.1s ease-out;
   text-align: center;
 }
 
 nav .menu-text a:hover {
-  color: rgba(255,255,255,0.5);
+  color: greenyellow;
 }
 
 #sub-menu-holder {
   pointer-events: none;
   color: rgba(0,0,0,0.5);
   font-weight: normal;
-  padding: 1em;
+  padding: 16px;
   position: absolute;
   transition: opacity 2 ease-out;
   transform: rotateX(-25deg) scale(1);
@@ -78,7 +86,7 @@ nav .menu-text a:hover {
   opacity: 0;
   box-shadow: 0 2px 7px rgba(0,0,0,0.1), 0 2px 20px rgba(0,0,0,0.3);
   box-sizing: border-box;
-  top: 3rem;
+  top: 48px;
   border-radius: 10px;
   background: white;
   display: block;
@@ -338,6 +346,7 @@ nav .menu-item:nth-of-type(3).highlight:hover ~ #sub-menu-container #sub-menu-ho
   font-size: 1.25em;
   top: 0.2em;
 }
+
 nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-bottom { opacity: 1; }
 
 #info-box {
@@ -367,11 +376,11 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
 
 /* section panting start */
 
-.pantings{
+.about{
   margin-bottom: 150px;
 }
 
-.container {
+.about__inner {
   position: relative;
   display: flex;
   justify-content: center;
@@ -381,7 +390,7 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
   padding: 100px 50px 0 50px;
 }
 
-.container .card {
+.about__inner .card {
   position: relative;
   display: flex;
   justify-content: center;
@@ -396,11 +405,11 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
   color: #33fc01;
 }
 
-.container .card:hover {
+.about__inner .card:hover {
   height: 400px;
 }
 
-.container .card .img-box {
+.about__inner .card .img-box {
   position: absolute;
   top: 20px;
   width: 300px;
@@ -411,13 +420,13 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
   transition: 0.5s;
 }
 
-.container .card:hover .img-box {
+.about__inner .card:hover .img-box {
   top: -100px;
   scale: 0.75;
   box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
 }
 
-.container .card .img-box img {
+.about__inner .card .img-box img {
   position: absolute;
   top: 0;
   left: 0;
@@ -426,7 +435,7 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
   object-fit: cover;
 }
 
-.container .card .content {
+.about__inner .card .content {
   position: absolute;
   top: 252px;
   width: 100%;
@@ -437,12 +446,12 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
   transition: 0.5s;
 }
 
-.container .card:hover .content {
+.about__inner .card:hover .content {
   top: 130px;
   height: 250px;
 }
 
-.container .card .content h2 {
+.about__inner .card .content h2 {
   font-size: 30px;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
@@ -467,7 +476,7 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
   font-size: 40px;
 }
 
-.container .card .content p {
+.about__inner .card .content p {
   color: #333;
   font-size: 14px;
   line-height: 1.5;
@@ -477,7 +486,7 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
   padding-right: 10px;
 }
 
-.container .card .content a {
+.about__inner .card .content a {
   position: relative;
   top: 15px;
   display: inline-block;
@@ -488,13 +497,13 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
   font-weight: 500;
 }
 
-.container .card .content a:hover {
+.about__inner .card .content a:hover {
   opacity: 0.8;
 }
 
 /* section abstractionism start */
 
-.abstractionism{
+.gallery{
   margin-bottom: 150px;
 }
 
@@ -605,4 +614,10 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
 .carousel-item__details--subtitle {
   color: #fff;
   margin: 5px 0;
+}
+
+/* start video */
+
+.video {
+  margin-bottom: 150px;
 }

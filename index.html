@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,182 +17,184 @@
 <body>
 
     <header class="header">
-        <nav id="menu">
-            <div class="menu-item">
-                <div class="menu-text">
-                    <a href="#">About us</a>
-                </div>
-                <div class="sub-menu">
-                    <div class="icon-box">
-                        <div class="icon"><i class="fa fa-user-circle" aria-hidden="true"></i></div>
-                        <div class="text">
-                            <div class="title">Our creators<i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">About creators of Abstract Art</div>
+        <div class="container">
+            <nav id="menu">
+                <div class="menu-item">
+                    <div class="menu-text">
+                        <a href="#">About us</a>
+                    </div>
+                    <div class="sub-menu">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa fa-user-circle" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <div class="title">Our creators<i class="far fa-arrow-right"></i></div>
+                                <div class="sub-text">About creators of Abstract Art</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="icon-box">
-                        <div class="icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
-                        <div class="text">
-                            <div class="title">Our partners<i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">People and companies</div>
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <div class="title">Our partners<i class="far fa-arrow-right"></i></div>
+                                <div class="sub-text">People and companies</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="icon-box">
-                        <div class="icon"><i class="fa fa-exclamation-circle" aria-hidden="true"></i></div>
-                        <div class="text">
-                            <div class="title">Our goals<i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">Introduce people with Abstact Art</div>
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa fa-exclamation-circle" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <div class="title">Our goals<i class="far fa-arrow-right"></i></div>
+                                <div class="sub-text">Introduce people with Abstact Art</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="sub-menu-holder"></div>
-                </div>
-            </div>
-            <div class="menu-item highlight">
-                <div class="menu-text">
-                    <a href="#">Abstract Art</a>
-                </div>
-                <div class="sub-menu double">
-                    <div class="icon-box gb a">
-                        <div class="icon"><i class="far fa-question-circle"></i></div>
-                        <div class="text">
-                            <div class="title">Consult <i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">From Professionals</div>
-                        </div>
-                    </div>
-                    <div class="icon-box gb b">
-                        <div class="icon"><i class="far fa-users-class"></i></div>
-                        <div class="text">
-                            <div class="title">Teach <i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">In Classroom</div>
-                        </div>
-                    </div>
-                    <div class="icon-box gb c">
-                        <div class="icon"><i class="far fa-school"></i></div>
-                        <div class="text">
-                            <div class="title">Learn <i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">By Video</div>
-                        </div>
-                    </div>
-                    <div class="icon-box gb d">
-                        <div class="icon"><i class="far fa-chess-rook"></i></div>
-                        <div class="text">
-                            <div class="title">Keep <i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">The Castle</div>
-                        </div>
-                    </div>
-                    <div class="icon-box gb e">
-                        <div class="icon"><i class="far fa-video-plus"></i></div>
-                        <div class="text">
-                            <div class="title">Become <i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">A Creator</div>
-                        </div>
-                    </div>
-                    <div class="icon-box gb f">
-                        <div class="icon"><i class="far fa-cat"></i></div>
-                        <div class="text">
-                            <div class="title">Understand <i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">Our Journey</div>
-                        </div>
-                    </div>
-                    <div class="bottom-container">
-                        Ready to dive in? <a href="#">Get Started</a>
-                    </div>
-                    <div class="sub-menu-holder"></div>
-                </div>
-            </div>
-            <div class="menu-item highlight">
-                <div class="menu-text">
-                    <a href="#">Gallery</a>
-                </div>
-                <div class="sub-menu triple">
-                    <div class="top-container gb c icon-box">
-                        <div class="icon big"><i class="far fa-book"></i></div>
-                        <div class="text">
-                            <div class="title">Where to start</div>
-                            <div class="sub-text">Find out where to begin below</div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h3>Your Journey</h3>
-                        <a href="#">Get Started</a>
-                        <a href="#">Learn the Basics</a>
-                        <a href="#">Get Advanced</a>
-                        <a href="#">Start Teaching</a>
-                    </div>
-                    <div class="box">
-                        <h3>Your Tools</h3>
-                        <a href="#">Turbo Editor</a>
-                        <a href="#">Time Stopper</a>
-                        <a href="#">Brain Enhancer</a>
-                        <a href="#">Network Maker</a>
-                    </div>
-                    <div class="icon-box flat">
-                        <div class="icon"><i class="fal fa-plug"></i></div>
-                        <div class="text">
-                            <div class="title">API Guide <i class="far fa-arrow-right"></i></div>
-                        </div>
-                    </div>
-                    <div class="icon-box flat">
-                        <div class="icon"><i class="fal fa-comments"></i></div>
-                        <div class="text">
-                            <div class="title">Support Line <i class="far fa-arrow-right"></i></div>
-                        </div>
-                    </div>
-                    <div class="icon-box flat">
-                        <div class="icon"><i class="fal fa-phone-volume"></i></div>
-                        <div class="text">
-                            <div class="title">Live Chat <i class="far fa-arrow-right"></i></div>
-                        </div>
-                    </div>
-                    <div class="icon-box flat">
-                        <div class="icon"><i class="fal fa-book-spells"></i></div>
-                        <div class="text">
-                            <div class="title">Documentation <i class="far fa-arrow-right"></i></div>
-                        </div>
+                        <div class="sub-menu-holder"></div>
                     </div>
                 </div>
-            </div>
-            <div class="menu-item">
-                <div class="menu-text">
-                    <a href="#">Community</a>
+                <div class="menu-item highlight">
+                    <div class="menu-text">
+                        <a href="#">Abstract Art</a>
+                    </div>
+                    <div class="sub-menu double">
+                        <div class="icon-box gb a">
+                            <div class="icon"><i class="far fa-question-circle"></i></div>
+                            <div class="text">
+                                <div class="title">Consult <i class="far fa-arrow-right"></i></div>
+                                <div class="sub-text">From Professionals</div>
+                            </div>
+                        </div>
+                        <div class="icon-box gb b">
+                            <div class="icon"><i class="far fa-users-class"></i></div>
+                            <div class="text">
+                                <div class="title">Teach <i class="far fa-arrow-right"></i></div>
+                                <div class="sub-text">In Classroom</div>
+                            </div>
+                        </div>
+                        <div class="icon-box gb c">
+                            <div class="icon"><i class="far fa-school"></i></div>
+                            <div class="text">
+                                <div class="title">Learn <i class="far fa-arrow-right"></i></div>
+                                <div class="sub-text">By Video</div>
+                            </div>
+                        </div>
+                        <div class="icon-box gb d">
+                            <div class="icon"><i class="far fa-chess-rook"></i></div>
+                            <div class="text">
+                                <div class="title">Keep <i class="far fa-arrow-right"></i></div>
+                                <div class="sub-text">The Castle</div>
+                            </div>
+                        </div>
+                        <div class="icon-box gb e">
+                            <div class="icon"><i class="far fa-video-plus"></i></div>
+                            <div class="text">
+                                <div class="title">Become <i class="far fa-arrow-right"></i></div>
+                                <div class="sub-text">A Creator</div>
+                            </div>
+                        </div>
+                        <div class="icon-box gb f">
+                            <div class="icon"><i class="far fa-cat"></i></div>
+                            <div class="text">
+                                <div class="title">Understand <i class="far fa-arrow-right"></i></div>
+                                <div class="sub-text">Our Journey</div>
+                            </div>
+                        </div>
+                        <div class="bottom-container">
+                            Ready to dive in? <a href="#">Get Started</a>
+                        </div>
+                        <div class="sub-menu-holder"></div>
+                    </div>
                 </div>
-                <div class="sub-menu">
-                    <div class="icon-box">
-                        <div class="icon"><i class="far fa-satellite"></i></div>
-                        <div class="text">
-                            <div class="title">Forum<i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">Join our passionate community</div>
+                <div class="menu-item highlight">
+                    <div class="menu-text">
+                        <a href="#">Gallery</a>
+                    </div>
+                    <div class="sub-menu triple">
+                        <div class="top-container gb c icon-box">
+                            <div class="icon big"><i class="far fa-book"></i></div>
+                            <div class="text">
+                                <div class="title">Where to start</div>
+                                <div class="sub-text">Find out where to begin below</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h3>Your Journey</h3>
+                            <a href="#">Get Started</a>
+                            <a href="#">Learn the Basics</a>
+                            <a href="#">Get Advanced</a>
+                            <a href="#">Start Teaching</a>
+                        </div>
+                        <div class="box">
+                            <h3>Your Tools</h3>
+                            <a href="#">Turbo Editor</a>
+                            <a href="#">Time Stopper</a>
+                            <a href="#">Brain Enhancer</a>
+                            <a href="#">Network Maker</a>
+                        </div>
+                        <div class="icon-box flat">
+                            <div class="icon"><i class="fal fa-plug"></i></div>
+                            <div class="text">
+                                <div class="title">API Guide <i class="far fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="icon-box flat">
+                            <div class="icon"><i class="fal fa-comments"></i></div>
+                            <div class="text">
+                                <div class="title">Support Line <i class="far fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="icon-box flat">
+                            <div class="icon"><i class="fal fa-phone-volume"></i></div>
+                            <div class="text">
+                                <div class="title">Live Chat <i class="far fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="icon-box flat">
+                            <div class="icon"><i class="fal fa-book-spells"></i></div>
+                            <div class="text">
+                                <div class="title">Documentation <i class="far fa-arrow-right"></i></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="icon-box">
-                        <div class="icon"><i class="fa fa-users" aria-hidden="true"></i></div>
-                        <div class="text">
-                            <div class="title">Social media<i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">Follow us</div>
-                        </div>
-                    </div>
-                    <div class="icon-box">
-                        <div class="icon"><i class="fab fa-twitch"></i></div>
-                        <div class="text">
-                            <div class="title">Live Stream<i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">We stream content every day</div>
-                        </div>
-                    </div>
-                    <div class="sub-menu-holder"></div>
                 </div>
-            </div>
-            <div id="sub-menu-container">
-                <div id="sub-menu-holder">
-                    <div id="sub-menu-bottom"></div>
+                <div class="menu-item">
+                    <div class="menu-text">
+                        <a href="#">Community</a>
+                    </div>
+                    <div class="sub-menu">
+                        <div class="icon-box">
+                            <div class="icon"><i class="far fa-satellite"></i></div>
+                            <div class="text">
+                                <div class="title">Forum<i class="far fa-arrow-right"></i></div>
+                                <div class="sub-text">Join our passionate community</div>
+                            </div>
+                        </div>
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <div class="title">Social media<i class="far fa-arrow-right"></i></div>
+                                <div class="sub-text">Follow us</div>
+                            </div>
+                        </div>
+                        <div class="icon-box">
+                            <div class="icon"><i class="fab fa-twitch"></i></div>
+                            <div class="text">
+                                <div class="title">Live Stream<i class="far fa-arrow-right"></i></div>
+                                <div class="sub-text">We stream content every day</div>
+                            </div>
+                        </div>
+                        <div class="sub-menu-holder"></div>
+                    </div>
                 </div>
-            </div>
-        </nav>
+                <div id="sub-menu-container">
+                    <div id="sub-menu-holder">
+                        <div id="sub-menu-bottom"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <!-- section pantings start -->
 
     <section class="about">
-        <h2 class="card__title">About Abstract Art</h2>
+        <h2 class="card__title title">About Abstract Art</h2>
         <div class="container">
             <div class="about__inner">
                 <div class="card" style="--clr: #3f01f9">
@@ -199,7 +202,7 @@
                         <img src="images/paint-1.jpg">
                     </div>
                     <div class="content">
-                        <h2 class="content__title-first">Eye and Lips</h2>
+                        <h3 class="content__title-first">Eye and Lips</h3>
                         <p>
                             Abstract art is art that does not represent an accurate depiction of visual reality,
                             communicating instead through lines, shapes, colours, forms and gestural marks.
@@ -216,7 +219,7 @@
                         <img src="images/paint-2.jpg">
                     </div>
                     <div class="content">
-                        <h2 class="content__title-second">Man and Hat</h2>
+                        <h3 class="content__title-second">Man and Hat</h3>
                         <p>
                             Abstract Art is a non-objective art, which does not have an accurate representation of a
                             visual
@@ -232,7 +235,7 @@
                         <img src="images/paint-3.jpg">
                     </div>
                     <div class="content">
-                        <h2 class="content__title-third">Face and Half-face</h2>
+                        <h3 class="content__title-third">Face and Half-face</h3>
                         <p>
                             Abstract art, non-figurative art, non-objective art, and non-representational art are all
                             closely related terms. They have similar, but perhaps not identical, meanings. Abstraction
@@ -248,7 +251,7 @@
     <!-- section abstractionism start -->
 
     <section class="gallery">
-        <h1 class="gallery__title title">Gallery</h1>
+        <h2 class="gallery__title title">Gallery</h2>
 
         <div class="carousel">
             <div class="carousel__container">
@@ -370,18 +373,63 @@
                 </div>
             </div>
         </div>
+    </section>    
+
+    <!-- start slider -->
+
+    <section class="new">
+        <div class="container">
+            <h2 class="new__title title">
+                New Collection
+            </h2>
+        </div>
+  
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="swiper-slide__img" src="images/slide-1.jpg" alt="Abstact painting">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-slide__img" src="images/slide-2.jpg" alt="Abstact painting">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-slide__img" src="images/slide-3.jpg" alt="Abstact painting">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-slide__img" src="images/slide-4.jpg" alt="Abstact painting">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-slide__img" src="images/slide-5.jpg" alt="Abstact painting">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-slide__img" src="images/slide-6.jpg" alt="Abstact painting">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-slide__img" src="images/slide-7.jpg" alt="Abstact painting">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-slide__img" src="images/slide-8.jpg" alt="Abstact painting">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
     </section>
+
+    <!-- start video -->
 
     <div class="video">
         <div class="container">
             <iframe width="100%" height="600" src="https://www.youtube.com/embed/rP9k2xzrgx8"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+                allowfullscreen>
+            </iframe>
         </div>
     </div>
 
-    <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
 
 </body>
 

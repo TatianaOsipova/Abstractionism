@@ -65,7 +65,7 @@ a {
 /* header start */
 
 .header {
-  margin-bottom: 150px;
+  margin-bottom: 120px;
 }
 
 nav {
@@ -81,6 +81,10 @@ nav {
 
 .menu__list-link {
   color: #fffdff;
+}
+
+.home{
+  color: #de04fb;
 }
 
 .menu__list-link:hover {
@@ -99,12 +103,17 @@ nav {
   gap: 100px;
 }
 
-.top__descr-title{
+.top__descr{
+  padding-top: 50px;
+}
+
+.top__descr-title {
+  background: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 255), rgb(2, 250, 2));
+  -webkit-background-clip: text;
+  color: transparent;
   font-size: 58px;
   font-weight: 700;
   margin-bottom: 50px;
-  color: red;
- 
 }
 
 blockquote{

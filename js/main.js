@@ -1,9 +1,9 @@
-// const menuBtn = document.querySelector('.menu__btn');
-// const menuMobile = document.querySelector('.header__menu-list');
+const menuBtn = document.querySelector('.menu__btn');
+const menuMobile = document.querySelector('.header__menu-list');
 
-// menuBtn.addEventListener('click', () => {
-//     menuMobile.classList.toggle('menu--open')
-// });
+menuBtn.addEventListener('click', () => {
+  menuMobile.classList.toggle('menu--open');
+});
 
 const swiper = new Swiper(".swiper", {
   effect: "coverflow",
@@ -25,10 +25,4 @@ const swiper = new Swiper(".swiper", {
   pagination: {
     el: ".swiper-pagination",
   },
-});
-
-$(function () {
-  $('.menu__btn').on('click', function () {
-    $('.menu__list').toggleClass('menu__list--active');
-  });
 });

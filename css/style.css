@@ -321,14 +321,14 @@ blockquote {
   cursor: pointer;
   -webkit-transition: 500ms all;
   transition: 500ms all;
-  -webkit-transform-origin: center left;
-  transform-origin: center left;
+  -webkit-transform-origin: center;
+  transform-origin: center;
   align-items: center;
 }
 
 .carousel-item:hover~.carousel-item {
-  -webkit-transform: translate3d(100px, 0, 0);
-  transform: translate3d(100px, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .carousel__container:hover .carousel-item {
@@ -702,11 +702,9 @@ blockquote {
   }
 }
 
-
-
 @media (max-width: 805px) {
   .header {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
 
   .top__inner {
@@ -720,12 +718,10 @@ blockquote {
   }
 }
 
-
-@media (max-width: 538px) {
-  .header {
-    margin-bottom: 30px;
+@media (max-width: 540px) {
+  .header{
+    margin-bottom: 0;
   }
-
   nav {
     margin-top: 30px;
   }
@@ -766,24 +762,28 @@ blockquote {
     display: flex;
   }
 
+  .about{
+    margin-bottom: 100px;
+  }
+
   .top {
     margin-bottom: 100px;
   }
 
   .top__inner {
-    gap: 0;
+    gap: 50px;
   }
 
   .top__descr {
-    padding-top: 50px;
+    padding-top: 30px;
+  }
+
+  .gallery{
+    margin-bottom: 100px;
   }
 }
 
 @media (max-width: 500px) {
-  .header {
-    margin-bottom: 0;
-  }
-
   .top__descr {
     padding-top: 0;
   }
@@ -794,6 +794,7 @@ blockquote {
 }
 
 @media (max-width: 450px) {
+
   .form {
     width: 320px;
   }

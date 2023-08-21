@@ -137,6 +137,7 @@ nav {
 .top__descr-title {
   background: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 255), rgb(2, 250, 2));
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   font-size: 58px;
   font-weight: 700;

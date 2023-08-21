@@ -7,14 +7,20 @@
 }
 
 html {
+  box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
 }
 
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
-  box-sizing: border-box;
   overflow-x: hidden;
   background: black;
 }
@@ -670,7 +676,7 @@ blockquote {
   .about__inner {
     gap: 80px 50px;
   }
-  
+
   .wrapper {
     justify-content: center;
     gap: 30px 30px;

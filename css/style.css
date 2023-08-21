@@ -785,6 +785,9 @@ blockquote {
 }
 
 @media (max-width: 500px) {
+  .title{
+    font-size: 36px;
+  }
   .top__descr {
     padding-top: 0;
   }
@@ -798,5 +801,11 @@ blockquote {
 
   .form {
     width: 320px;
+  }
+}
+
+@media (max-width: 368px) {
+  .form{
+    width: 300px;
   }
 }

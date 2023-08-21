@@ -279,7 +279,7 @@ blockquote {
   opacity: 0.8;
 }
 
-/* section abstractionism start */
+/* section gallery start */
 
 .gallery {
   margin-bottom: 150px;
@@ -310,7 +310,6 @@ blockquote {
   justify-content: space-between;
   align-items: center;
   gap: 70px 30px;
-  margin-top: 100px;
 }
 
 .carousel-item {
@@ -653,8 +652,8 @@ blockquote {
 }
 
 @media (max-width: 950px) {
-  .about__inner {
-    gap: 80px 50px;
+  .top__inner {
+    gap: 30px;
   }
 
   .top__descr-title {
@@ -668,6 +667,10 @@ blockquote {
     padding-bottom: 30px;
   }
 
+  .about__inner {
+    gap: 80px 50px;
+  }
+  
   .wrapper {
     justify-content: center;
     gap: 30px 30px;
@@ -720,9 +723,10 @@ blockquote {
 }
 
 @media (max-width: 540px) {
-  .header{
+  .header {
     margin-bottom: 0;
   }
+
   nav {
     margin-top: 30px;
   }
@@ -763,7 +767,7 @@ blockquote {
     display: flex;
   }
 
-  .about{
+  .about {
     margin-bottom: 100px;
   }
 
@@ -779,15 +783,17 @@ blockquote {
     padding-top: 30px;
   }
 
-  .gallery{
+  .gallery {
     margin-bottom: 100px;
   }
 }
 
 @media (max-width: 500px) {
-  .title{
+  .title {
     font-size: 36px;
+    margin-bottom: 80px;
   }
+
   .top__descr {
     padding-top: 0;
   }
@@ -798,14 +804,13 @@ blockquote {
 }
 
 @media (max-width: 450px) {
-
   .form {
     width: 320px;
   }
 }
 
 @media (max-width: 368px) {
-  .form{
+  .form {
     width: 300px;
   }
 }

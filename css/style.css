@@ -780,9 +780,14 @@ blockquote {
     align-items: start;    
   }
 
-  .menu__list-link{
-    min-width: 228px;    
-    border-bottom: 1px solid #000;
+  .menu__list-item{
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    padding-bottom: 5px;
+  }
+
+  .menu__list-item:hover{
+    border-bottom: 1px solid #35fb04;
   }
 
   .menu__list-link.home {
@@ -790,12 +795,16 @@ blockquote {
   }
 
   .home:hover {
-    color: #de04fb;
+    color: #35fb04;
   }
 
   .menu__list-link {
     font-size: 20px;
     font-weight: 700;
+  }
+
+  .menu__list-link:hover {
+    color: #35fb04;
   }
 
   .header__menu-list.menu--open {

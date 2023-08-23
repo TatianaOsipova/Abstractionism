@@ -724,6 +724,7 @@ blockquote {
   .about,
   .gallery,
   .new,
+  .video,
   .contacts{
     margin-bottom: 80px;
   }
@@ -759,7 +760,7 @@ blockquote {
 
 @media (max-width: 540px) {
   .header {
-    margin-bottom: 0;
+    margin-bottom: 50px;
   }
 
   nav {

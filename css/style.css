@@ -755,9 +755,6 @@ blockquote {
   .form {
     padding: 40px 0px;
   }
-
-  
-
 }
 
 @media (max-width: 540px) {
@@ -769,18 +766,25 @@ blockquote {
     margin-top: 30px;
   }
 
+  .header__menu{
+    justify-content: end;
+  }
+
   .header__menu-list {
-    width: 153px;
+    width: 228px;
     background-color: #CD201F;
     flex-direction: column;
     gap: 20px 0;
     position: absolute;
-    padding: 25px 35px 25px 45px;
+    padding: 25px 35px;
     left: 0;
     top: 0;
     transform: translateY(-100%);
     transition: transform .5s ease;
-    align-items: start;
+    align-items: start;    
+  }
+
+  .menu__list-link a{
     border-bottom: #fff;
   }
 

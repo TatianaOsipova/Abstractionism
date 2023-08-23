@@ -766,10 +766,6 @@ blockquote {
     margin-top: 30px;
   }
 
-  .header__menu{
-    justify-content: end;
-  }
-
   .header__menu-list {
     width: 228px;
     background-color: #CD201F;
@@ -784,8 +780,9 @@ blockquote {
     align-items: start;    
   }
 
-  .menu__list-link a{
-    border-bottom: #fff;
+  .menu__list-link{
+    min-width: 228px;    
+    border-bottom: 1px solid #000;
   }
 
   .menu__list-link.home {
@@ -807,6 +804,7 @@ blockquote {
 
   .menu__btn {
     display: flex;
+    float: right;
   }
 
   .top__inner {
@@ -820,7 +818,6 @@ blockquote {
   .gallery {
     margin-bottom: 100px;
   }
-
   
 }
 
